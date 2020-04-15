@@ -12,7 +12,8 @@ class ClubList extends HTMLElement {
   }
 
   renderError(message) {
-    this.shadowDOM.innerHTML = `<style> .placeholder {
+    this.shadowDOM.innerHTML = `<style> 
+      .placeholder {
         font-weight: lighter;
         color: rgba(0,0,0,0.5);
         -webkit-user-select: none;
